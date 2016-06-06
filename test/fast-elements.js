@@ -1,4 +1,4 @@
-#!/usr/bin/env node --allow-natives-syntax 
+#!/usr/bin/env node --allow_natives_syntax
 
 'use strict';
 
@@ -30,7 +30,7 @@ test('\narray that was not pre-allocated but grown on demand', function (t) {
 test('\narrays that were pre-allocated to hold a specific number of elements', function (t) {
   var a = new Array(99999);
   var b = new Array(100000);
-  
+
   t.ok(hasFastElements(a), 'to 99,999 elements has fast elements')
   t.ok(!hasFastElements(b), 'to 100,000 elements has no fast elements')
   t.end()

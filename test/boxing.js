@@ -1,4 +1,4 @@
-#!/usr/bin/env node --allow-natives-syntax 
+#!/usr/bin/env node --allow_natives_syntax
 
 'use strict';
 

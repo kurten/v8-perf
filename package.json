@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Notes and resources related to v8 and thus Node.js performance.",
   "scripts": {
-    "test-main": "set -e; for t in test/*.js; do $t; done",
+    "test-main": "set -e; for t in test/*.js; do node --allow_natives_syntax $t; done",
     "test-0.8": "nave use 0.8 npm run test-main",
     "test-0.10": "nave use 0.10 npm run test-main",
     "test-0.11": "nave use 0.11 npm run test-main",
