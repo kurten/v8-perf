@@ -37,6 +37,8 @@ In case you want to customize the documentation, checkout the `gh-pages` branch 
 template](https://github.com/thlorenz/v8-perf/blob/gh-pages/build/template.doxygen) and run `npm start` which will
 rebuild the documentation. I'm open to pull requests that improve on it. *Requires [doxygen](http://www.stack.nl/~dimitri/doxygen/download.html) and [graphviz](http://www.graphviz.org/Download..php) to be installed on your machine*.
 
+Other v8docs [https://v8docs.nodesource.com/](https://v8docs.nodesource.com/)
+
 ## Tests
 
 Some tests were added to confirm some of the assumptions made in the docs, you can run them as follows:
